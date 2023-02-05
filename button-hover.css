@@ -1,0 +1,19 @@
+body{
+    background:rgb(248, 245, 245)!important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: auto;
+    background-color: rgb(87, 87, 87);
+    padding: 1rem 2rem;
+    font-size: 40px;
+    border: 0px;
+    /* box-shadow: 3px 3px 3px 2px grey!important; */
+}
+button:hover {
+    padding: 0.5rem 1rem;
+    box-shadow: inset 3px 3px 7px 2px rgb(206, 11, 11);
+    transition: 0.25s;
+}
