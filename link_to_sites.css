@@ -1,0 +1,58 @@
+body{
+    background:rgb(231, 253, 30);
+    height: 100vh;
+    display:flex;
+}
+#btnOne{
+    margin:auto;
+    text-align: center;
+    background-color: rgb(247, 187, 232)!important;
+    display: block;
+    padding: 0.75rem 0.75rem;
+    font-size: 40px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 10px 3px 2px rgb(251, 63, 210);
+}
+#btnTwo{
+    margin:auto;
+    text-align: center;
+    background-color: rgb(247, 187, 232)!important;
+    display: block;
+    padding: 0.75rem 0.75rem;
+    font-size: 40px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 10px 3px 2px rgb(251, 63, 210);
+}
+#btnThree{
+    margin:auto;
+    text-align: center;
+    background-color: rgb(247, 187, 232)!important;
+    display: block;
+    padding: 0.75rem 0.75rem;
+    font-size: 40px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 10px 3px 2px rgb(251, 63, 210);
+}
+#btnOne:hover{
+    box-shadow: inset 15px 15px 15px 15px rgb(245, 83, 191);
+}
+#btnTwo:hover{
+    box-shadow: inset 15px 15px 15px 15px rgb(245, 83, 191);
+}
+#btnThree:hover{
+    box-shadow: inset 15px 15px 15px 15px rgb(245, 83, 191);
+}
+h1{
+    color: blue;
+}
+div{
+    text-align: center;
+    margin: 0;
+    margin-left: 120px;
+}
+#image{
+    margin-top: 100px;
+}
