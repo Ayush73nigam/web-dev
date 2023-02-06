@@ -1,0 +1,83 @@
+h1 {
+    text-align: center;
+    color: rgb(6, 187, 6);
+}
+div {
+    text-align: center;
+    color: brown;
+}
+#s {
+    margin-left: 40px;
+}
+@media screen and (min-width: 765px){
+#a {
+    width:24%;
+    float:left;
+    background-color: rgb(160, 158, 158);
+}
+#b {
+    width: 24%;
+    float:right;
+    float:left;
+    background-color: rgb(188, 186, 186);
+}
+#c {
+    width: 24%;
+    float:right;
+    float:left;
+    background-color: rgb(201, 200, 200);
+}
+#d {
+    width:24%;
+    float: right;
+    float: left;
+    background-color: rgb(218, 215, 215);
+}
+}
+@media screen and (min-width: 461px) and (max-width: 764px){
+    #a {
+        width:48%;
+        float:left;
+        background-color: rgb(160, 158, 158);
+    }
+    #b {
+        width: 48%;
+        float:right;
+        float:left;
+        background-color: rgb(188, 186, 186);
+    }
+    #c {
+        width: 48%;
+        float:left;
+        background-color: rgb(201, 200, 200);
+    }
+    #d {
+        width:48%;
+        float: right;
+        float: left;
+        background-color: rgb(218, 215, 215);
+    }
+}
+@media screen and (max-width: 460px){
+    #a {
+        width:96%;
+        background-color: rgb(160, 158, 158);
+        float: left;
+    }
+    #b {
+        width: 96%;
+        background-color: rgb(188, 186, 186);
+        float: left;
+    }
+    #c {
+        width: 96%;
+        background-color: rgb(201, 200, 200);
+        float: left;
+    }
+    #d {
+        width:96%;
+        background-color: rgb(218, 215, 215);
+        float: left;
+    }
+}
+
